@@ -8,7 +8,7 @@
 
 ### Les équipements cyclables
 
-[Requête overpass turbo](./requete_overpass), fortement inspirée de celle de Charles Népote](https://gist.github.com/CharlesNepote/9806b459d5f7ee671681e55b35cb0a81) pour récupérer toutes les données OpenStreetMap liées de près ou de loin à la cyclabilité. Aller sur [Overpass turbo](http://overpass-turbo.eu/). Pour utiliser ces données dans R, voir [ce package overpass](https://hrbrmstr.github.io/overpass/). 
+[Requête overpass turbo](./requete_overpass), fortement inspirée de [celle de Charles Népote](https://gist.github.com/CharlesNepote/9806b459d5f7ee671681e55b35cb0a81) pour récupérer toutes les données OpenStreetMap liées de près ou de loin à la cyclabilité. Aller sur [Overpass turbo](http://overpass-turbo.eu/). Pour utiliser ces données dans R, voir [ce package overpass](https://hrbrmstr.github.io/overpass/). 
 
 ### La météo
 
