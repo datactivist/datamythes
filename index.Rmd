@@ -72,7 +72,9 @@ Nous allons suivre la méthodologie de la [Data Pipeline](http://schoolofdata.or
 
 * La pipeline sera la trame de cet atelier. 
 ]
+
 ---
+
 class:middle, center
 #  Au fait, c'est quoi une donnée ouverte ?
 
@@ -117,6 +119,7 @@ class:middle, center
 ]
 
 ---
+
 ## Trouver
 
 .pull-left[
