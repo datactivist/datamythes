@@ -1,0 +1,102 @@
+---
+title: "DATA Mythes"
+subtitle: "Un atelier de médiation aux données du vélo à Marseille"
+author: "Datactivist"
+date: "Marseille, 29 juin 2018"
+output:
+  SlidesDatactivist::moon_reader:
+    css: [default, datactivist, datactivist-fonts, ./libs/custom.css]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+params:
+  event: Data Mythes
+  slug: datamythes
+---
+
+layout: true
+  
+`r paste0("<div class='my-footer'><span>", params$event, "</span> <center><div class=logo><img src='https://github.com/datactivist/slides_datactivist/raw/master/inst/rmarkdown/templates/xaringan/resources/img/fond_noir_monochrome.png' width='100px'></center></span></div>")` 
+
+---
+.reduite[![](img/donuts.jpg)]
+
+### Un atelier dans le cadre de DONUT
+
+---
+
+## Objectifs de l'atelier
+
+.pull-left[
+* Casser (ou valider) des mythes sur le vélo à Marseille
+
+* Découvrir une méthode générique pour trouver et utiliser des données ouvertes
+
+* Pointer les limites des données disponibles par rapport aux  questions exprimées par les participant-e-s
+]
+
+.pull-right[
+.reduite[![](https://datactivist.coop/formation-marches/img/patin.jpg)]
+]
+
+---
+
+## Déroulé de l'atelier
+
+.pull-left[
+.reduite[![](./img/Data_pipeline_FR_transparent.png)]
+]
+.pull-right[
+Nous allons suivre la méthodologie de la [Data Pipeline](http://schoolofdata.org/methodology) développée par School of Data 
+
+* Une méthodologie générique pour la découverte et l'usage de données ouvertes
+
+* 7 étapes qui, selon les projets, prennent une importance plus ou moins grande. 
+
+* La pipeline sera la trame de cet atelier. 
+]
+---
+class:middle, center
+#  Au fait, c'est quoi une donnée ouverte ?
+
+### Une donnée ouverte est une donnée qui peut être librement utilisée, réutilisée et redistribuée par quiconque.
+
+.footer[[Open Definition](http://opendefinition.org/)]
+
+---
+
+# Quel est votre profil ?
+
+.pull-left[
+.reduite[![](img/velo.png)]
+]
+
+.pull-right.middle[
+* #### Narrateur ou narratrice ?
+
+* #### Explorateur ou exploratrice ?
+
+* #### Technicien-ne de données ?
+
+* #### Analyste ?
+
+* #### Designer ?
+
+]
+
+---
+
+## Définir
+
+.pull-left[
+.reduite[![](./img/Data_pipeline_FR_transparent.png)]
+]
+.pull-right[
+
+- ### Définir précisément votre problème (que souhaitez vous résoudre ?)
+
+- ### Identifier les données utiles
+
+]
