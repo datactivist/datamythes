@@ -30,6 +30,8 @@ Ces slides en ligne : http://datactivist.coop/datamythes/
 
 Les contenus créés par Datactivist sont placés sous [licence Creative Commons CC-BY-SA](https://creativecommons.org/licenses/by-sa/3.0/deed.fr). 
 
+Cet atelier est une reprise d'un atelier de l'Ecole des Données à Paris en mars 2018. 
+
 <img src="./img/Logo_DATACTIVIST_TW.png" height="100px" />
 
 ---
@@ -70,7 +72,9 @@ Nous allons suivre la méthodologie de la [Data Pipeline](http://schoolofdata.or
 
 * La pipeline sera la trame de cet atelier. 
 ]
+
 ---
+
 class:middle, center
 #  Au fait, c'est quoi une donnée ouverte ?
 
@@ -108,13 +112,14 @@ class:middle, center
 ]
 .pull-right[
 
-- ### Définir précisément votre problème (que souhaitez vous résoudre ?)
+- #### Définir précisément votre problème (que souhaitez vous résoudre ?)
 
-- ### Identifier les données utiles
+- #### Identifier les données utiles
 
 ]
 
 ---
+
 ## Trouver
 
 .pull-left[
@@ -122,16 +127,127 @@ class:middle, center
 ]
 .pull-right[
 
-- ### Moteur de recherche
+- #### Moteur de recherche
 
-- ### Portails open data
+- #### Portails open data
 
-- ### Producteurs de données
+- #### Producteurs de données
 
-- ### OpenStreetMap ?
+- #### OpenStreetMap ?
 
 
 ]
 
 ---
+
 ## Récupérer 
+
+.pull-left[
+.reduite[![](./img/Data_pipeline_FR_transparent.png)]
+]
+.pull-right[
+
+- #### Téléchargement direct
+
+- #### API ou web service
+
+- #### Scrapping de données
+
+- #### Copier / coller
+
+- #### Extraction (OpenStreetMap)
+
+
+]
+
+---
+
+## Vérifier 
+
+.pull-left[
+.reduite[![](./img/Data_pipeline_FR_transparent.png)]
+]
+
+.pull-right[
+
+- #### Bon sens
+
+- #### Demander a la source
+
+- #### Communauté d’experts
+
+- #### Statistiques
+
+
+]
+
+--- 
+
+## Nettoyer 
+
+.pull-left[
+.reduite[![](./img/Data_pipeline_FR_transparent.png)]
+]
+.pull-right[
+
+- #### Toilettage
+
+- #### Edition
+
+- #### Consolidation
+
+- #### Erreurs fréquentes
+Format pour les dates
+Les doublons
+Les fautes d’orthographe
+
+
+]
+
+--- 
+
+## Analyser 
+
+.pull-left[
+.reduite[![](./img/Data_pipeline_FR_transparent.png)]
+]
+.pull-right[
+
+#### Type d’analyse
+- Analyse statistique
+- Analyse spatiale
+
+#### Outils
+
+- Tableur
+- R
+- QGIS (données géo)
+- Etc.
+
+]
+
+---
+
+## Présenter
+
+.pull-left[
+.reduite[![](./img/Data_pipeline_FR_transparent.png)]
+]
+
+.pull-right[
+
+### Communiquer les résultats de votre analyse au public.
+
+Flourish
+https://flourish.studio/
+
+Datawrapper
+https://www.datawrapper.de/
+
+Infogram
+https://infogram.com/
+
+DIVE
+https://dive.media.mit.edu/
+
+]
