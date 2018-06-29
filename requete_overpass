@@ -1,0 +1,113 @@
+[out:xml];
+( area[name="Marseille"]; ) -> .a;
+(
+  // query part for: “highway=cycleway”
+  node["highway"="cycleway"](area.a);
+  way["highway"="cycleway"](area.a);
+  relation["highway"="cycleway"](area.a);
+  // query part for: “cycleway=lane”
+  node["cycleway"="lane"](area.a);
+  way["cycleway"="lane"](area.a);
+  relation["cycleway"="lane"](area.a);
+  // query part for: “bicycle=designated”
+  node["bicycle"="designated"](area.a);
+  way["bicycle"="designated"](area.a);
+  relation["bicycle"="designated"](area.a);
+  // query part for: “bicycle=yes”
+  node["bicycle"="yes"](area.a);
+  way["bicycle"="yes"](area.a);
+  relation["bicycle"="yes"](area.a);
+  // query part for: “maxspeed=30”
+  node["maxspeed"="30"](area.a);
+  way["maxspeed"="30"](area.a);
+  relation["maxspeed"="30"](area.a);
+  // query part for: “highway=living_street”
+  node["highway"="living_street"](area.a);
+  way["highway"="living_street"](area.a);
+  relation["highway"="living_street"](area.a);
+  // query part for: “maxspeed=20”
+  node["maxspeed"="20"](area.a);
+  way["maxspeed"="20"](area.a);
+  relation["maxspeed"="20"](area.a);
+  // query part for: “"zone:maxspeed"="FR:20"”
+  node["zone:maxspeed"="FR:20"](area.a);
+  way["zone:maxspeed"="FR:20"](area.a);
+  relation["zone:maxspeed"="FR:20"](area.a);
+  // query part for: “"restriction:bicycle"=give_way”
+  node["restriction:bicycle"="give_way"](area.a);
+  way["restriction:bicycle"="give_way"](area.a);
+  relation["restriction:bicycle"="give_way"](area.a);
+  // query part for: “barrier=cycle_barrier”
+  node["barrier"="cycle_barrier"](area.a);
+  way["barrier"="cycle_barrier"](area.a);
+  relation["barrier"="cycle_barrier"](area.a);
+  // query part for: “amenity=bicycle_parking”
+  node["amenity"="bicycle_parking"](area.a);
+  way["amenity"="bicycle_parking"](area.a);
+  relation["amenity"="bicycle_parking"](area.a);
+  // query part for: “amenity=bicycle_rental”
+  node["amenity"="bicycle_rental"](area.a);
+  way["amenity"="bicycle_rental"](area.a);
+  relation["amenity"="bicycle_rental"](area.a);
+  // query part for: “amenity=bicycle_repair_station”
+  node["amenity"="bicycle_repair_station"](area.a);
+  way["amenity"="bicycle_repair_station"](area.a);
+  relation["amenity"="bicycle_repair_station"](area.a);
+  // query part for: “shop=bicycle”
+  node["shop"="bicycle"](area.a);
+  way["shop"="bicycle"](area.a);
+  relation["shop"="bicycle"](area.a);
+  // query part for: “amenity=compressed_air”
+  node["amenity"="compressed_air"](area.a);
+  way["amenity"="compressed_air"](area.a);
+  relation["amenity"="compressed_air"](area.a);
+  // query part for: “amenity=drinking_water”
+  node["amenity"="drinking_water"](area.a);
+  way["amenity"="drinking_water"](area.a);
+  relation["amenity"="drinking_water"](area.a);
+  // query part for: “drinking_water=yes”
+  node["drinking_water"="yes"](area.a);
+  way["drinking_water"="yes"](area.a);
+  relation["drinking_water"="yes"](area.a);
+  // query part for: “surface=cobblestone”
+  node["surface"="cobblestone"](area.a);
+  way["surface"="cobblestone"](area.a);
+  relation["surface"="cobblestone"](area.a);
+  // query part for: “surface=sett”
+  node["surface"="sett"](area.a);
+  way["surface"="sett"](area.a);
+  relation["surface"="sett"](area.a);
+  // query part for: “surface=metal”
+  node["surface"="metal"](area.a);
+  way["surface"="metal"](area.a);
+  relation["surface"="metal"](area.a);
+  // query part for: “surface=metal_grid”
+  node["surface"="metal_grid"](area.a);
+  way["surface"="metal_grid"](area.a);
+  relation["surface"="metal_grid"](area.a);
+  // query part for: “surface=mud”
+  node["surface"="mud"](area.a);
+  way["surface"="mud"](area.a);
+  relation["surface"="mud"](area.a);
+  // query part for: “traffic_calming=*”
+  node["traffic_calming"](area.a);
+  way["traffic_calming"](area.a);
+  relation["traffic_calming"](area.a);
+  // query part for: “incline~/[1-9]+.[…]”
+  node["incline"~"[1-9]+.*"](area.a);
+  way["incline"~"[1-9]+.*"](area.a);
+  relation["incline"~"[1-9]+.*"](area.a);
+  // query part for: “highway=steps”
+  node["highway"="steps"](area.a);
+  way["highway"="steps"](area.a);
+  relation["highway"="steps"](area.a);
+  // query part for: “bicycle=no”
+  node["bicycle"="no"](area.a);
+  way["bicycle"="no"](area.a);
+  relation["bicycle"="no"](area.a);
+  // query part for: “highway=motorway”
+  node["highway"="motorway"](area.a);
+  way["highway"="motorway"](area.a);
+  relation["highway"="motorway"](area.a);
+);
+out;
